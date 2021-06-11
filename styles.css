@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  background-color: #fff8d9;
+  text-align: center;
+  position: relative;
+}
+.wave {
+  width: 675px;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.red-block {
+  background-color: #bb371a;
+  height: 500px;
+  width: 600px;
+  position: absolute;
+  top: 275px;
+  left: 0;
+  z-index: -1;
+}
+.portrait {
+  width: 650px;
+  height: auto;
+  position: absolute;
+  top: 150px;
+  left: 175px;
+  z-index: 1;
+}
+.about-me{
+  background-color: white;
+  position: absolute;
+  width:600px;
+  height:auto;
+  right:75px;
+  top:250px;
+  left:675px;
+  z-index: 2;
+  padding: 20px 50px 50px;
+  text-align: left;
+}
+.myButton {
+	box-shadow:inset 0 1px 3px 0 #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #2b665e;
+  margin-right: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.middle-container {
+background-color: #d5dbb3;
+  position: absolute;
+  top:875px;
+  padding-top:50px;
+  padding-bottom: 50px;
+  height: 385px;
+}
+.bent {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  right: 100px;
+  float: right;
+  margin-top:25px;
+}
+
+.need-help{
+  background-color: white;
+  width: 40%;
+  margin-left: 100px;
+  margin-top:25px;
+  padding: 20px 50px 50px;
+  text-align:center;
+}
+.linkedin {
+  width: 30px;
+  height:auto;
+  margin-right: 5px;
+  margin-top:5px;
+}
+#linkedin{
+  margin-right:15px;
+  text-decoration: none;
+}
+.github {
+  width: 40px;
+  height:auto;
+}
+#git {
+  margin-right: 20px;
+  text-decoration: none;
+}
+.insta {
+  width: 35px;
+  height:auto;
+  margin-right: 5px;
+}
+#instagram {
+  margin-right: 20px;
+  text-decoration: none;
+}
+.design-skills{
+  position:relative;
+  top:1390px;
+  z-index: 1;
+}
+.bottom-container{
+  position: absolute;
+  top: 1450px;
+  left: 125px;
+  right: 125px;
+  width: 1200px;
+  height: 300px;
+  background-color: #eba83a;
+  text-align: center;
+  padding: 35px 0 50px 0;
+}
+.html {
+  background-color: white;
+  text-align: center;
+  display:inline-block;
+  margin: 20px;
+
+}
+.html-img {
+  width: 225px;
+  height: auto;
+  display:inline-block;
+}
+.css{
+  background-color: white;
+  text-align: center;
+  display:inline-block;
+  margin: 20px;
+}
+.css-img {
+  width: 225px;
+  height: auto;
+  display:inline-block;
+}
+.javascript {
+  background-color: white;
+  text-align: center;
+  display:inline-block;
+  margin: 20px;
+}
+.JS-img {
+  width: 225px;
+  height: auto;
+  display:inline-block;
+}
+.git {
+  background-color: white;
+  text-align: center;
+  display:inline-block;
+  margin: 20px;
+}
+.git-img {
+  width: 225px;
+  height: auto;
+  display:inline-block;
+}
